@@ -1,5 +1,7 @@
-package com.scaler.lldmachinecodingpractice.LibraryManagementSystem.Models;
+package com.scaler.lldmachinecodingpractice.LibraryManagementSystem;
 
+import com.scaler.lldmachinecodingpractice.LibraryManagementSystem.models.Book;
+import com.scaler.lldmachinecodingpractice.LibraryManagementSystem.models.Member;
 import lombok.Getter;
 import lombok.Setter;
 
