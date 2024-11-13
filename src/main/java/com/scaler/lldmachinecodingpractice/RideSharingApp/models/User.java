@@ -9,15 +9,15 @@ import java.util.List;
 @Setter
 
 public class User {
-    private int userId;
+    private String userId;
     private String userName;
     private String userPhoneNumber;
     private List<RideStatus> rides;
 
-//    public User(int userId, String userName, String userPhoneNumber) {
-//        this.userId = userId;
-//        this.userName = userName;
-//        this.userPhoneNumber = userPhoneNumber;
-//    }
+    public User(String userId, String userName, String userPhoneNumber) {
+        this.userId = userId;
+        this.userName = userName;
+        this.userPhoneNumber = userPhoneNumber;
+    }
 }
 
